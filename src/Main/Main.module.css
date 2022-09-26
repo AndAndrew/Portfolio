@@ -2,3 +2,25 @@
     height: 100vh;
     background-color: #bbb9b9;
 }
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greetingsText {
+    width: 300px;
+    background-color: #343434;
+    color: #a397b7;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #343434;
+}
