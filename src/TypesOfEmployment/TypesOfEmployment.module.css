@@ -5,12 +5,12 @@
 .typesOfEmploymentContainer {
     flex-direction: column;
     justify-content: flex-start;
-    box-sizing: border-box;
 }
 
 .title {
     background-color: #343434;
     color: #a397b7;
+    text-align: center;
 }
 
 .items {
@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 .item {
