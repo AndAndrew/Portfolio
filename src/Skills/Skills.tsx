@@ -10,8 +10,10 @@ export const Skills = () => {
                 <div className={styles.skills}>
                     <Skill title={'JS'} description={'JS skills JS skills JS skills JS skills JS skills'}/>
                     <Skill title={'HTML'} description={'HTML skills HTML skills HTML skills HTML skills HTML skills'}/>
-                    <Skill title={'CSS'} description={'CSS skills CSS skills CSS skills CSS skills CSS skills CSS skills'}/>
-                    <Skill title={'REACT'} description={'REACT skills REACT skills REACT skills REACT skills REACT skills REACT skills'}/>
+                    <Skill title={'CSS'}
+                           description={'CSS skills CSS skills CSS skills CSS skills CSS skills CSS skills'}/>
+                    <Skill title={'REACT'}
+                           description={'REACT skills REACT skills REACT skills REACT skills REACT skills REACT skills'}/>
                 </div>
             </div>
         </div>
