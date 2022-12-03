@@ -1,12 +1,13 @@
 import styles from './Skills.module.css'
 import styleContainer from '../Common/Styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
+import {Title} from "../Common/Components/Title/Title";
 
 export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>Skills</h2>
+                <Title title={'Skills'}/>
                 <div className={styles.skills}>
                     <Skill title={'JS'} description={'JS skills JS skills JS skills JS skills JS skills'}/>
                     <Skill title={'HTML'} description={'HTML skills HTML skills HTML skills HTML skills HTML skills'}/>

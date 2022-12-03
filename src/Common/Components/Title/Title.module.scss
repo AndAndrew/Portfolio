@@ -1,0 +1,21 @@
+@import "../../../Common/Styles/Sass/variables.scss";
+@import "../../../Common/Styles/Sass/mixins.scss";
+
+.title {
+  margin-bottom: 30px;
+  @include text($titleFontFamily, 24px, 1.2, $mainTextColor, 3px);
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: $mainTextColor;
+    min-width: 30vh;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
