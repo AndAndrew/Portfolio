@@ -1,0 +1,33 @@
+@import "../Common/Styles/Sass/variables.scss";
+@import "../Common/Styles/Sass/mixins.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $mainBackgroundColor;
+
+  .greetingsText {
+    min-width: 400px;
+    color: $mainTextColor;
+    .greeting {
+      @include text($titleFontFamily, 24px, 1.2, $mainTextColor, 3px);
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .name {
+      @include text($titleFontFamily, 30px, 1.2, $mainTextColor, 3px);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .speciality {
+      @include text($titleFontFamily, 24px, 1.2, $mainTextColor, 3px);
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: #343434;
+  }
+}

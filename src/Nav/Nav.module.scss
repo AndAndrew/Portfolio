@@ -1,0 +1,19 @@
+@import "../Common/Styles/Sass/variables.scss";
+@import "../Common/Styles/Sass/mixins.scss";
+
+.nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  .item {
+    background-color: $secondaryBackgroundColor;
+    padding: 0px 4px;
+    @include text($titleFontFamily, 24px, 1.2, $mainTextColor, 3px);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .item:hover {
+    background-color: $tertiaryBackgroundColor;
+  }
+}
