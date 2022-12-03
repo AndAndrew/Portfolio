@@ -1,23 +1,20 @@
 @import "../Common/Styles/Sass/variables.scss";
 
-.projectsBlock {
+.skillsBlock {
+  min-height: 100vh;
   background-color: $mainBackgroundColor;
   padding: 100px 0;
-
-  .projectsContainer {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
 
-    .projects {
-      min-width: 70%;
+    .skills {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       margin-top: 30px;
       align-items: flex-start;
-      @media screen and (max-width: 893px) {
-        justify-content: center;
-      }
     }
   }
 }
