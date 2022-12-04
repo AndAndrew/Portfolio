@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.scss'
 import styleContainer from "../Common/Styles/Container.module.css";
 
 export const Footer = () => {
