@@ -3,7 +3,7 @@ import styleContainer from '../Common/Styles/Container.module.css'
 
 export const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <div id={'Main'} className={styles.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={styles.greetingsText}>
                     <span className={styles.greeting}>Hi There</span>

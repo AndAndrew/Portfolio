@@ -10,7 +10,7 @@ import reduxIcon from "../Assets/Images/redux.svg"
 
 export const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <div id={'Skills'} className={styles.skillsBlock}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={styles.skills}>

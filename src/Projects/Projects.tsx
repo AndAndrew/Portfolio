@@ -13,7 +13,7 @@ export const Projects = () => {
         backgroundImage: `url(${socialNImage})`
     }
     return (
-        <div className={styles.projectsBlock}>
+        <div id={'Projects'} className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
                 <Title title={'Projects'}/>
                 <div className={styles.projects}>
